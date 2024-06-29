@@ -74,3 +74,10 @@
 </suite>  
 
 
+- Run the tests using the following command:
+  ```cmd
+   mvn test -DsuiteXmlFile=testng.xml
+
+
+
+
