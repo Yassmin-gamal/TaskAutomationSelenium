@@ -81,3 +81,10 @@
 2. Using IDE:
 - Open the project in your IDE and run the individual test classes or the entire suite using TestNG configurations.
 
+# Tests Result
+![Screenshot 2024-06-29 163518](https://github.com/Yassmin-gamal/TaskAutomationSelenium/assets/66153260/aa237ade-d389-4c3f-b23a-9dc1792c98eb)
+
+![Screenshot 2024-06-29 163730](https://github.com/Yassmin-gamal/TaskAutomationSelenium/assets/66153260/539d4467-b83c-44b2-b7a2-60baa3dcbf06)
+
+
+
