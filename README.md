@@ -1,2 +1,64 @@
 # TaskAutomationSelenium
- Task1
+
+- In this project, working with Selenium Java version 4.18.1, Maven version 3.0.0-M5, TestNG version 7.8.0, all in the Eclipse IDE in pom.xml file
+
+ #  Objective
+- task is to provide a suite of tests, using TestNG, Selenium Webdriver
+
+#  Website
+- https://www.saucedemo.com/
+
+# Project Structure
+ encapsulate the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern. 
+ 
+1. POM Pattern of my Project :
+   ```css
+   Calculator-Tests
+   ├── pom.xml
+   ├── testng.xml
+   ├── src
+   │   ├── main
+   │   │   └── java
+   │   │       
+   │   │       
+   │   └── test
+   │       └── java
+   │           └── com
+   │           │    └── google
+   │           │        └── selenium
+   │           │                 ├──test
+   │           │               │   ├── Test1.java
+   │           │               │   ├── test2.java
+   │           │               │   └── test3.java
+   │           │               │   └── Test4.java
+   │           │               │   └── Test5.java
+   │           └── pages
+   │                 └── LoginPage.java
+   │                   
+   └── README.md
+
+
+# Pages
+- LoginPage.java: Contains web elements and actions for the login page.
+  
+# Tests
+
+- Test1.java: Verifies the presence of the username, password fields, and login button.
+- test2.java: Tests a valid login scenario.
+- test3.java: Tests an invalid login scenario.
+- Test4.java: Tests login with an empty username field.
+- Test5.java: Tests login with an empty password field.
+
+# Prerequisites
+-Java Development Kit (JDK) 8 or higher
+-Maven (for dependency management)
+-ChromeDriver (matching your version of Chrome)
+-An IDE like Eclipse
+
+# Running Tests
+
+1. Using TestNG XML:
+   ```xml
+   
+
+
