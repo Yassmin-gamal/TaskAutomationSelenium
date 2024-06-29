@@ -59,6 +59,18 @@
 
 1. Using TestNG XML:
    ```xml
-   
+     <?xml version="1.0" encoding="UTF-8"?>
+ 
+    <suite name="First">
+      <test name="Default test" verbose="2">
+          <classes>
+              <class name="com.google.selenium.test.Test1"/>
+              <class name="com.google.selenium.test.test2"/>
+              <class name="com.google.selenium.test.test3"/>
+              <class name="com.google.selenium.test.Test4"/>
+              <class name="com.google.selenium.test.Test5"/>
+          </classes>
+    </test>  
+</suite>  
 
 
