@@ -76,8 +76,8 @@
 
 - Run the tests using the following command:
   ```cmd
-   mvn test -DsuiteXmlFile=testng.xml
-
-
-
+      mvn test -DsuiteXmlFile=testng.xml
+  
+2. Using IDE:
+- Open the project in your IDE and run the individual test classes or the entire suite using TestNG configurations.
 
